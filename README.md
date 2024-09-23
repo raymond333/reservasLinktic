@@ -32,6 +32,7 @@ Por su parte el usuario Cliente podrá observar en forma de tarjetas las reserva
  * Para correr el sistema solo se necesita tener instalado un servidor web con PHP y MySQL.
  * Es importante tener configurado el servidor para permitir redirecciones desde el archivo .htaccess
  * El acceso a l base de dato se configura en el archi pdo.php quee está dentro del backend
+ * En el directorio principal del repositorio etá un archivo .sql para crear la base de datos
  
 
 
