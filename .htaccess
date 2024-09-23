@@ -1,0 +1,13 @@
+RewriteEngine On
+
+# Redirigir cualquier solicitud de /api/ a /backend/api/
+RewriteRule ^api/(.*)$ backend/api/ [L]
+
+# Evitar redirecciones para recursos estáticos
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+
+
+# Redirigir cualquier otra solicitud a frontend/panel.php
+RewriteRule ^(.*)$ frontend/$1 [L]

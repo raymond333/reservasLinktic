@@ -1,0 +1,13 @@
+/* PARA MODIFICAR EL HEADER (LA PARTE DEL LOGO Y LE MENÚ COLAPSABLE */
+.pc-header {
+    left: 0;
+ }
+@media (min-width: 1025px) {
+    .pc-header {
+        z-index:1027
+    }
+
+    .pc-header .header-mobile-collapse {
+        display: none
+    }
+}
